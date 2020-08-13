@@ -1,0 +1,30 @@
+{
+  "env": {
+    "commonjs": true,
+    "es2020": true,
+    "node": true
+  },
+  "extends": ["standart", "plugin:prettier/recommended"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 11,
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "linebreak-style": "off",
+    "object-curly-newline": "off",
+    "no-mixed-operators": "off",
+    "arrow-body-style": "off",
+    "function-paren-newline": "off",
+    "no-plusplus": "off",
+    "space-before-function-paren": 0,
+    "max-len": ["error", 100, 2, { "ignoreUrls": true, }],
+    "no-console": "error",
+    "no-param-reassign": "off",
+    "no-unused-expressions": [2, { "allowTernary": true, "allowShortCircuit": true }],
+    "prettier/prettier": ["error"]
+  }
+}
