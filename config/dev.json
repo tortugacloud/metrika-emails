@@ -1,5 +1,5 @@
 {
   "mongoose": {
-    "uri": ""
+    "uri": "mongodb+srv://tortuga:tortuga@cluster0.ldmj4.mongodb.net/metrics"
   }
 }
