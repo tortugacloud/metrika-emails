@@ -17,6 +17,9 @@ module.exports = (error, req, res, next) => {
     };
   }
 
+  // eslint-disable-next-line no-console
+  console.log(error);
+
   res.status(error.status || 500).json({
     status: error.status,
     message: error.message,
