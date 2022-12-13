@@ -6,7 +6,7 @@
   "dependencies": {
     "compression": "^1.7.4",
     "cross-env": "^7.0.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-validator": "^6.6.1",
     "mongoose": "^5.9.28",
     "helmet": "^4.0.0"
